@@ -1,7 +1,5 @@
 using App.Data;
 using App.Data.Entity;
-using App.Web.Mvc.Services;
-using App.Web.Mvc.Services.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connStr);
 });
 
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+//builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 
