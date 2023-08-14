@@ -49,6 +49,9 @@
 //}
 
 
+using Microsoft.CodeAnalysis.Elfie.Diagnostics;
+using NuGet.ContentModel;
+
 namespace App.Admin.Utils
 {
     public class FileHelper
@@ -110,10 +113,9 @@ namespace App.Admin.Utils
             {
                 await Image.CopyToAsync(stream);
             }
-
-            return $"/Images/{fileName}";  // Dosya adını döndürmeyi unutmayın
+            //return $"/Images/{fileName}";  // Dosya adını döndürmeyi unutmayın
+            return $"Utku Kemal/Documents/Github/aspnet-mvc-cms/App.Web.Mvc/wwwroot/Images";
         }
-
 
     }
 
