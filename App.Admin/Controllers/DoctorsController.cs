@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using App.Data.Entity;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
+using App.Admin.Utils;
+using Microsoft.AspNetCore.Hosting;
 
 namespace App.Admin.Controllers
 {
@@ -12,9 +14,12 @@ namespace App.Admin.Controllers
         private readonly HttpClient _httpClient;
         private readonly string _apiAddress = "http://localhost:5005/api/Doctors";
         private readonly string _apiDepartments = "http://localhost:5005/api/Departments";
-        public DoctorsController(HttpClient httpClient)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public DoctorsController(HttpClient httpClient, IWebHostEnvironment webHostEnvironment)
         {
             _httpClient = httpClient;
+            _webHostEnvironment = webHostEnvironment;
         }
         // GET: DoctorController
         public async Task<ActionResult> Index()
@@ -40,22 +45,38 @@ namespace App.Admin.Controllers
         // POST: DoctorController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(Doctors collection)
+        public async Task<ActionResult> Create(Doctors collection, IFormFile Image)
         {
             try
             {
+                if (Image is not null)
+                {
+                    collection.Image = await FileHelper.FileLoaderAsync(Image);
+
+                    string wwwrootPath = _webHostEnvironment.WebRootPath;
+
+                    string adminFullPath = Path.Combine(wwwrootPath, collection.Image);
+
+                    string uiTargetPath = Path.Combine(wwwrootPath, "Images", Path.GetFileName(adminFullPath));
+
+                    if (!System.IO.File.Exists(uiTargetPath))
+                    {
+                        System.IO.File.Copy(adminFullPath, uiTargetPath, true);
+                    }
+                }
+
                 var response = await _httpClient.PostAsJsonAsync(_apiAddress, collection);
                 if (response.IsSuccessStatusCode)
                 {
                     TempData["Message"] = "<div class='alert alert-success'>The Job is Done Sir!</div>";
                     return RedirectToAction(nameof(Index));
-
                 }
             }
             catch (Exception e)
             {
-                ModelState.AddModelError("", "Hata oluştu : " + e.Message);
+                ModelState.AddModelError("", "An error occurred: " + e.Message);
             }
+
             ViewBag.DepartmentId = new SelectList(await _httpClient.GetFromJsonAsync<List<Department>>(_apiDepartments), "Id", "Name");
             return View(collection);
         }
