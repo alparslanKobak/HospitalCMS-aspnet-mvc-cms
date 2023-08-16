@@ -37,8 +37,8 @@
                         <img src="/Images/@Model.Image" class="img-fluid" style="max-height:100px" alt="" />
 
                     }
-                    <label for="Image" class="form-label">Profile Image</label>
-                    <input type="file" id="Image" name="Image" class="form-control" asp-for="Image" />
+                    <label for="Image" class="form-label" >Profile Image</label>
+                    <input type="file" id="Image" name="Image" class="form-control" asp-for="Image" enctype="multipart/form-data" />
                     <span asp-validation-for="Image" class="text-danger"></span>
                 </div>
 
