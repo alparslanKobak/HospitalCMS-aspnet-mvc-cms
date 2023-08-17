@@ -79,7 +79,7 @@
                                     <div class="d-flex">
                                         <a class="btn btn-primary me-1" asp-action="Edit" asp-route-id="@patient.Id"><i class="fas fa-edit"></i> Edit</a>
                                         <form asp-action="Remove" asp-route-id="@patient.Id" method="post" onsubmit="return confirmDelete(this);">
-                                            <button type="submit" class="btn btn-danger" id="deleteButton"><i class="fas fa-trash"></i> Delete</button>
+                                            <button type="submit" class="btn btn-success" id="deleteButton"><i class="fas fa-check"></i> Mark as Done</button>
                                         </form>
                                     </div>
                                 </td>

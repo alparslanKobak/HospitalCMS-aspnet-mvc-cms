@@ -38,7 +38,7 @@ namespace App.Data
             {
                 Name = $"Opthomology",
                 Image = "/Images/Opthomology.jpg",
-                Description = $"Ophthalmology, the branch of medicine that focuses on the study and treatment of disorders and diseases related to the eyes and visual system. Ophthalmologists are specialized medical professionals who diagnose and manage various eye conditions, ranging from refractive errors like nearsightedness and farsightedness to more complex issues such as cataracts, glaucoma, and retinal disorders. They use advanced diagnostic tools and surgical techniques to provide patients with the best possible care for their vision and overall eye health. Regular eye check-ups with ophthalmologists are crucial for early detection and timely treatment of eye problems, helping individuals maintain clear vision and prevent potential sight-threatening conditions.",
+                Description = $"Ophthalmology, the branch of medicine dedicated to studying and treating disorders and diseases of the eyes and visual system. Ophthalmologists are specialized medical professionals who diagnose and manage various eye conditions, from common refractive errors like nearsightedness and farsightedness to more complex issues such as cataracts, glaucoma, and retinal disorders. They employ advanced diagnostic tools and cutting-edge surgical techniques to provide patients with exceptional care for their vision and overall eye health. Regular eye check-ups with ophthalmologists play a pivotal role in early detection and timely treatment of eye-related problems, ensuring individuals maintain clear vision and prevent potential sight-threatening conditions.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -46,7 +46,7 @@ namespace App.Data
             {
                 Name = $"Cardiology",
                 Image = "/Images/Cardiology.jpg",
-                Description = $"Cardiology is the medical specialty that deals with the diagnosis, treatment, and prevention of diseases and conditions related to the heart and the cardiovascular system. Cardiologists are highly trained medical professionals who focus on understanding the intricacies of heart function and its interaction with blood vessels.They use various diagnostic techniques, such as electrocardiograms (ECGs), echocardiograms, and stress tests, to assess heart health and identify potential issues. Cardiologists also manage a wide range of heart conditions, including coronary artery disease, heart failure, arrhythmias, and congenital heart defects.Treatment approaches in cardiology may include lifestyle changes, medications, minimally invasive procedures, and, in some cases, complex surgeries.",
+                Description = $"Cardiology, the specialized medical field devoted to diagnosing, treating, and preventing diseases and conditions related to the heart and the cardiovascular system. Cardiologists are highly trained medical professionals who specialize in understanding the intricacies of heart function and its interaction with blood vessels. They employ a variety of diagnostic techniques, such as electrocardiograms (ECGs), echocardiograms, and stress tests, to evaluate heart health and identify potential issues. Cardiologists manage a wide spectrum of heart conditions, including coronary artery disease, heart failure, arrhythmias, and congenital heart defects. Treatment approaches in cardiology encompass lifestyle changes, medications, minimally invasive procedures, and, in certain cases, complex surgeries.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -54,7 +54,7 @@ namespace App.Data
             {
                 Name = $"Dental Care",
                 Image = "/Images/DentalCare.jpg",
-                Description = $"Dental care involves the maintenance of oral hygiene and the prevention and treatment of dental diseases. It is a crucial aspect of overall health and well-being. Dental care encompasses various practices, such as regular dental check-ups, daily brushing, flossing, and proper nutrition to maintain healthy teeth and gums.Dentists and dental hygienists play a vital role in providing dental care services. During routine check-ups, they examine teeth and gums, clean teeth professionally, and identify any potential dental issues like cavities, gum disease, or oral infections..",
+                Description = $"Dental care encompasses the practices aimed at maintaining oral hygiene and preventing as well as treating dental diseases. It holds a critical role in overall health and well-being. Dental care involves routine dental check-ups, daily brushing, flossing, and proper nutrition to uphold healthy teeth and gums. Dentists and dental hygienists are essential contributors to dental care services. During regular check-ups, they examine teeth and gums, professionally clean teeth, and identify potential dental issues such as cavities, gum disease, or oral infections.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -62,7 +62,7 @@ namespace App.Data
             {
                 Name = $"Child Care",
                 Image = "/Images/ChildCare.jpg",
-                Description = $"Child care refers to the supervision and nurturing of children in their early years by caregivers, parents, or professionals. It is a crucial aspect of a child's development, ensuring their safety, well-being, and overall growth.Child care can take various forms, such as home-based care, where parents or family members look after the child, or center-based care, which includes daycare centers, nurseries, and preschools.h",
+                Description = $"Child care pertains to the supervision and nurturing of children in their formative years, undertaken by caregivers, parents, or professionals. It is a pivotal aspect of a child's holistic development, ensuring their safety, well-being, and overall growth. Child care takes various forms, including home-based care provided by parents or family members, and center-based care encompassing daycare centers, nurseries, and preschools.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -70,7 +70,7 @@ namespace App.Data
             {
                 Name = $"Pulmonology",
                 Image = "/Images/Pulmology.jpg",
-                Description = $"Pulmonology is the medical specialty that focuses on the study and treatment of diseases and disorders related to the respiratory system. Pulmonologists are specialized physicians who diagnose and manage various respiratory conditions, including but not limited to asthma, chronic obstructive pulmonary disease (COPD), pneumonia, lung cancer, and interstitial lung diseases.They use advanced diagnostic tools such as pulmonary function tests, chest X-rays, CT scans, and bronchoscopy to assess lung health and identify specific respiratory issues..",
+                Description = $"Pulmonology, the specialized medical field dedicated to the study and treatment of diseases and disorders related to the respiratory system. Pulmonologists are expert physicians who diagnose and manage an array of respiratory conditions, including but not limited to asthma, chronic obstructive pulmonary disease (COPD), pneumonia, lung cancer, and interstitial lung diseases. They employ advanced diagnostic tools such as pulmonary function tests, chest X-rays, CT scans, and bronchoscopy to assess lung health and pinpoint specific respiratory issues.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -78,7 +78,7 @@ namespace App.Data
             {
                 Name = $"Gynecology",
                 Image = "/Images/Gynecology.jpg",
-                Description = $"Gynecology is the medical specialty that deals with the health and well-being of the female reproductive system. Gynecologists are specialized physicians who focus on diagnosing and treating a wide range of conditions related to the female reproductive organs, including the uterus, ovaries, fallopian tubes, and breasts.These medical professionals provide essential services for women of all ages, from adolescence through menopause and beyond.",
+                Description = $"Gynecology, the medical specialty focused on the health and well-being of the female reproductive system. Gynecologists are specialized physicians who specialize in diagnosing and treating a wide range of conditions concerning the female reproductive organs, including the uterus, ovaries, fallopian tubes, and breasts. These medical professionals provide crucial services for women across all life stages, from adolescence through menopause and beyond.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -86,7 +86,7 @@ namespace App.Data
             {
                 Name = $"Allergy And Immunology",
                 Image = "/Images/AllergyAndImmunology.jpg",
-                Description = $"Allergies including asthma are among the most common health problems. Immuno-deficiencies are rarer but can be chronic and debilitating if not diagnosed and treated properly. If you or your child have an allergic disease or a defect in the immune system, our Allergy and Immunology Division provides optimal and tailored care for children and adults with a wide range of allergic and immunologic conditions",
+                Description = $"Allergy and Immunology Department at our facility is dedicated to addressing allergies, including asthma, which are among the most prevalent health issues. We also provide expertise in immunodeficiencies, which, while rarer, can be chronic and debilitating if not accurately diagnosed and treated. Our division offers tailored care for both children and adults, encompassing a broad spectrum of allergic and immunologic conditions.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -94,7 +94,7 @@ namespace App.Data
             {
                 Name = $"Anesthesiology",
                 Image = "/Images/Anesthesiology.jpg",
-                Description = $"The word anesthesia means ‘loss of sensation’. It can involve a simple local anesthetic injection which numbs a small part of the body, such as a finger or around a tooth. It can also involve using powerful drugs which cause unconsciousness. ",
+                Description = $"Anesthesiology is a specialized medical field that centers on anesthesia administration. Anesthesia can range from local anesthetic injections that numb specific body parts, like a finger or an area around a tooth, to the use of potent drugs that induce unconsciousness.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -102,7 +102,7 @@ namespace App.Data
             {
                 Name = $"Aviation Medical Services",
                 Image = "/Images/AviationMedicalServices.jpg",
-                Description = $"American Hospital Dubai provides exceptional Aviation Medical Services in Dubai with Specialist Aeromedical examiners. Our expert team of highly experienced Specialist AMEs is certified and approved to conduct special aviation medical examinations for all aviation professionals, including air traffic controllers, commercial pilots, private pilots, and the entire cabin crew. .",
+                Description = $"Our Aviation Medical Services Department provides exceptional care for aviation professionals in Dubai. Our team of certified Specialist Aeromedical Examiners conducts specialized aviation medical examinations for air traffic controllers, commercial pilots, private pilots, and cabin crew members, ensuring their fitness for duty and safe performance in their roles.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -110,7 +110,7 @@ namespace App.Data
             {
                 Name = $"General Surgery",
                 Image = "/Images/GeneralSurgery.jpg",
-                Description = $"At American Hospital Dubai’s General Surgery Department, our main aim is to deliver all-inclusive surgical healthcare at the highest international standards. We are the first choice general surgery hospital in Dubai for a number of reasons..",
+                Description = $"The General Surgery Department at American Hospital Dubai is committed to delivering comprehensive surgical healthcare at the highest international standards. We are the preferred choice for general surgery in Dubai, known for our excellence in patient care and surgical expertise.",
                 // Gerekli diğer özellikler doldur.
             };
 
@@ -118,7 +118,7 @@ namespace App.Data
             {
                 Name = $"Psychiatrist",
                 Image = "/Images/Psychiatrist.jpg",
-                Description = $"A psychiatrist is a medical doctor who specializes in the diagnosis, treatment, and prevention of mental illnesses and emotional disorders. Their primary focus is on understanding the complex interplay between a person's psychological, emotional, and physiological factors to provide comprehensive mental healthcare.",
+                Description = $"Psychiatry is the medical specialty devoted to diagnosing, treating, and preventing mental illnesses and emotional disorders. Psychiatrists are medical doctors who specialize in understanding the intricate interplay between a person's psychological, emotional, and physiological factors, providing comprehensive mental healthcare services.",
                 // Gerekli diğer özellikler doldur.
             };
             context.Departments.Add(department);
@@ -144,7 +144,7 @@ namespace App.Data
             {
                 RoleId = 2,
                 FullName = $"Devrani POINTER",
-                Image= "/Images/doctor1.jpg",
+                Image = "/Images/doctor1.jpg",
                 City = $"Arizona",
                 Phone = $"09008008080",
                 Specialty = $"Opthomology",
@@ -466,65 +466,84 @@ namespace App.Data
 
             var post = new Post
             {
-                //  ImageId = i, // Bu örnekte ImageId'leri 1'den 10'a kadar ekledik.
 
-                Title = "Advances in the Healthcare Sector",
-                Content = "The healthcare sector is continuously evolving and advancing due to innovations in science, technology, and medicine. These advancements have led to the improvement of healthcare services and treatment methods for human health. In this article, we will discuss some significant developments and innovations in the healthcare sector: Genetic and Cellular Therapies: In recent years, there have been significant advancements in genetic and cellular therapies. Gene editing technologies offer promising results for treating genetic disorders. Additionally, stem cell therapy holds great potential in the treatment of certain diseases and enhancing injury recovery.Artificial Intelligence and Data Analytics: Artificial intelligence (AI) and data analytics have revolutionized the healthcare sector. AI algorithms are being used for early disease detection, treatment planning, and patient care. Big data analytics improves the efficiency and effectiveness of healthcare services.Digital Health and Telemedicine: Digital health technologies and telemedicine services facilitate easier patient-doctor interactions and increase access to healthcare services. Remote monitoring systems and telehealth platforms are used for managing chronic diseases and providing remote patient care.Targeted Therapies: Advancements in pharmacology enable more effective and targeted treatments for diseases. Personalized medicines are tailored to individual patients' genetic characteristics and disease profiles.Robotic Surgery: Robotic surgery enhances precision and accuracy, making surgical procedures safer and more effective. This technology plays a significant role in performing complex surgeries and minimally invasive interventions.Neuromodulation Techniques: Neuromodulation involves stimulating the nervous system electrically or chemically to treat certain medical conditions. It is considered an effective method for managing chronic pain, Parkinson's disease, and epilepsy. These are just a few examples of the developments in the healthcare sector. Research and advancements in medicine and healthcare continue to progress, and we can expect even more significant breakthroughs in the future. These advancements hold the potential to improve patients' quality of life and make healthcare services more effective and accessible",
-                // Comments = SeedCommentsForPost, // Her post için rastgele yorumlar oluşturuluyor.
-                // Gerekli diğer özellikleri de doldur.
+                Title = "Advancements in Vision Care: The Opthomology Frontier",
+                Image = "/Images/post.jpg",
+                Content = "The field of opthomology continues to witness remarkable advancements that illuminate the path to clearer vision and healthier eyes. From innovative treatments for refractive errors to groundbreaking surgical interventions for complex eye conditions, the opthomology department stands at the forefront of visual well-being. Discover the journey of ophthalmologists as they employ cutting-edge technology, personalized care, and a commitment to excellence, ensuring that your eyesight remains a window to the world's wonders.",
+
             };
+
             var post2 = new Post
             {
-                Title = "Revolutionizing Healthcare: Unveiling the Latest Advances",
-                Content = "The healthcare landscape is undergoing a remarkable transformation, driven by the relentless march of scientific discovery, technological prowess, and medical ingenuity. These dynamic advancements are redefining the way we approach healthcare, leading to enhanced services and novel treatment modalities that cater to the ever-evolving needs of humanity. In the pages that follow, we embark on a journey through some of the most noteworthy breakthroughs and innovations that are propelling the healthcare sector into an exhilarating future.",
+                Image = "/Images/post2.jpg",
+                Title = "Heartfelt Innovations: Navigating the Cardiology Horizon",
+                Content = "The realm of cardiology pulsates with life-saving innovations that redefine heart health. Cardiologists harness the power of diagnostics and therapeutics to mend broken hearts and nurture healthy rhythms. Unveil the orchestration of electrocardiograms, echocardiograms, and surgical finesse as cardiologists mend the intricate symphony of the cardiovascular system. Step into a world where hearts find solace in precision, where advanced techniques are the heartbeat of a healthier future.",
+
             };
-            
             var post3 = new Post
             {
-                Title = "Genetic and Cellular Marvels: A Glimpse into Tomorrow",
-                Content = "In recent times, the arena of genetic and cellular therapies has witnessed an extraordinary metamorphosis. The advent of gene-editing technologies has bestowed us with the potential to rectify genetic anomalies, holding the promise of curing diseases once deemed insurmountable. Simultaneously, the realm of stem cell therapy stands as a beacon of hope, showing us a path towards addressing afflictions previously deemed incurable and expediting the recovery from injuries that once posed lasting debilitation.",
+                Image = "/Images/post3.jpg",
+                Title = "Radiant Smiles: A Journey Through Dental Care Excellence",
+                Content = "Dental care journeys beyond routine check-ups and teeth cleaning, weaving a tale of healthy smiles and oral well-being. Discover the artistry of dental care as dedicated dentists and hygienists sculpt brighter, healthier smiles. From cavities to gum health, delve into the meticulous craft of maintaining pearly whites. Unveil the secrets to maintaining oral hygiene, explore the realm of preventive measures, and uncover the gentle touch that keeps smiles glowing.",
+
             };
             var post4 = new Post
             {
-                Title = "Cognitive Frontiers: AI and Data Unleashed",
-                Content = "The advent of artificial intelligence (AI) and the formidable power of data analytics have sparked a revolution that reverberates throughout the healthcare domain. Harnessing the might of AI algorithms, we now stand at the precipice of early disease detection, tailored treatment strategies, and an elevated standard of patient care. The seamless integration of vast datasets has led to a profound metamorphosis, optimizing the efficiency and efficacy of healthcare services like never before.",
+                Image = "/Images/post4.jpg",
+                Title = "Nurturing Blossoms: The Essence of Quality Child Care",
+                Content = "Child care extends far beyond supervision, nurturing the growth of young minds with dedicated passion. Explore the heartwarming journey of caregivers and professionals who provide safe havens for blossoming souls. Delve into the world of child development, from early childhood to preschool, where every moment is a building block for the future. Join us in celebrating the magic of fostering joy, curiosity, and resilience in the youngest members of our community.",
+
             };
             var post5 = new Post
             {
-                Title = "Virtual Horizons: Exploring Digital Health and Telemedicine",
-                Content = "In an age defined by interconnectedness, digital health technologies and the marvel of telemedicine have emerged as transformative game-changers. The once-daunting divide between patients and physicians has been bridged, as digital platforms enable seamless interactions, democratizing access to healthcare services. Remote patient monitoring systems, in synergy with telehealth platforms, herald a new era in the management of chronic ailments and the delivery of compassionate, remote care.",
+                Image = "/Images/post5.jpg",
+                Title = "Breathing Easy: Exploring Pulmonology's Respiratory Symphony",
+                Content = "Pulmonology's realm is a testament to the human spirit's resilience, as specialists navigate the intricate pathways of the respiratory system. Journey alongside pulmonologists as they unravel the mysteries of lung health, from asthma's symphony to COPD's cadence. Peer into diagnostic harmonies and treatment orchestrations that breathe life into lungs and inspire breaths of vitality. Welcome to a world where each breath is cherished, and every sigh tells a story of hope.",
+
             };
             var post6 = new Post
             {
-                Title = "Bull's Eye Medicine: Precision in Every Dose",
-                Content = "Advancements in the realm of pharmacology have ushered in an era of precision-targeted therapies, a monumental shift that transcends the conventional treatment paradigms. The dawn of personalized medicine, tailored to individual genetic idiosyncrasies and distinct disease blueprints, is upon us. This tailored approach not only augments the effectiveness of treatments but also enhances patient outcomes in ways previously deemed unattainable.",
+                Image = "/Images/post6.jpg",
+                Title = "Empowering Women: Navigating the Path to Gynecological Well-Being",
+                Content = "Gynecology transcends medical care, embracing the essence of womanhood and empowerment. Embark on a journey where specialized care meets holistic well-being, with gynecologists as guides through the intricate landscape of female health. Explore the spectrum of services, from routine wellness checks to personalized treatment plans. Witness the harmony of medical expertise and compassionate understanding, as gynecologists champion women's health at every life stage.",
+
             };
             var post7 = new Post
             {
-                Title = "Surgical Symphony: The Rise of Robotic Virtuosos",
-                Content = "The operating theater, once solely the realm of human hands, is now adorned with the grace of robotic precision. Robotic surgery has elevated the standards of accuracy and safety to unprecedented heights, particularly in complex procedures and minimally invasive interventions. With each controlled movement, these technological virtuosos redefine the boundaries of surgical excellence.",
+                Image = "/Images/post7.jpg",
+                Title = "Breathe Freely: Unveiling Allergy And Immunology's Healing Touch",
+                Content = "In the realm of Allergy and Immunology, a symphony of care unfurls for those seeking solace from allergies and immunologic challenges. Discover the transformative journey of specialized care, where allergies find resolution and immunodeficiencies meet tailored solutions. Peer into a realm where the immune system's melodies are understood, and harmony is restored. Join us in celebrating lives unburdened by allergy's burden, where the immune system's resilience takes center stage.",
+
             };
             var post8 = new Post
             {
-                Title = "Neurological Wonders: Unveiling Neuromodulation's Potential",
-                Content = "In the arena of medical interventions, neuromodulation stands as a vanguard, unlocking new avenues of hope for individuals grappling with chronic afflictions. By delicately stimulating the nervous system through electrical or chemical means, we're unraveling innovative solutions for chronic pain, Parkinson's disease, epilepsy, and beyond. This technique marks a testament to human innovation's ability to conquer the most intricate challenges posed by the human body.",
+                Image = "/Images/post8.jpg",
+                Title = "Nurturing Dreams: The Anesthesiology Canvas of Comfort",
+                Content = "Anesthesiology is the guardian of peaceful slumber on the canvas of surgical endeavors. Step into a world where skilled anesthesiologists orchestrate tranquility, ensuring patients sail through the tides of surgery with serene dreams. Discover the artistry of anesthesia, where precise dosages and vigilant monitoring craft a journey of safety and comfort. Embrace the realm where sleep and healing intertwine, under the watchful gaze of anesthesiology's guardians.",
+
             };
             var post9 = new Post
             {
-                Title = "A Glimpse into the Future: Pioneering the Path Aheadn",
-                Content = "As we traverse the ever-unfolding landscape of medical marvels, it is clear that the journey has only just begun. The relentless pursuit of knowledge and the audacity to push boundaries continue to propel medicine forward. With each passing day, we edge closer to a future where patient well-being is augmented, healthcare becomes even more accessible, and the very fabric of human existence is interwoven with the tapestry of groundbreaking innovation." +
-                "In retrospect, these advances in the healthcare sector serve as a poignant reminder that the boundaries of human achievement are but temporary markers in an ever-expansive voyage towards progress. And as we inch towards a horizon teeming with potential, we do so with a shared anticipation for the untold wonders that lie ahead.",
+                Image = "/Images/post9.jpg",
+                Title = "Taking Flight Safely: Navigating the Skies with Aviation Medical Services",
+                Content = "In the world of aviation, health soars alongside dreams. Join us on a voyage where aviation professionals find their wings, courtesy of meticulous medical care. Explore the aviation medical examination process, where certified specialists ensure that pilots, cabin crew, and air traffic controllers navigate the skies in optimal health. Embark on a journey where health and safety dance hand in hand with the pursuit of the endless horizon.",
+
             };
             var post10 = new Post
             {
-                Title = "Elixir of Genetics: Unveiling a New Era",
-                Content = "The symphony of progress in the realm of genetics and cellular therapies is reaching a crescendo, offering us a glimpse into a future where the manipulation of genes holds the key to treating ailments once deemed unconquerable. The emergence of gene-editing technologies casts a radiant light on the possibility of rewriting the very code of life, a prospect that holds immense potential for eradicating hereditary disorders. Concurrently, the allure of stem cell therapy dances before us, promising novel avenues for disease management and swifter convalescence from injuries.",
+                Image = "/Images/post10.jpg",
+                Title = "Surgical Symphony: Crafting Health and Healing through General Surgery",
+                Content = "The General Surgery Department is a tapestry woven with the threads of healing, where skilled hands and cutting-edge techniques converge. Immerse yourself in the world of surgical expertise, where a spectrum of procedures mends and restores. From minimally invasive marvels to complex surgical symphonies, the general surgery journey is a testament to the artistry of healing. Join us in celebrating the stories etched on the canvas of patient well-being.",
+
             };
             var post11 = new Post
             {
-                Title = "AI's Healing Touch: Crafting a Healthier Tomorrow",
-                Content = "In the annals of healthcare history, the chapter on artificial intelligence (AI) and data analytics gleams with transformative promise. With algorithms as our guide, we traverse uncharted territories, detecting diseases at their inception, devising treatment blueprints with surgical precision, and orchestrating a symphony of patient care that resonates with empathy. The marriage of colossal data streams with the prowess of AI bestows upon us a treasure trove of insights, optimizing the efficacy and efficiency of healthcare services in a manner previously deemed unattainable.",
+                Image = "/Images/post11.jpg",
+                Title = "Embracing Minds: Nurturing Mental Health through Psychiatry",
+                Content = "Psychiatry is the realm where minds find solace and emotional well-being blooms. Dive into the world of psychiatry, where expert psychiatrists wield their medical mastery to illuminate the path to mental health. Uncover the art of listening, the science of understanding, and the compassion that nurtures resilience. Join us in celebrating the stories of transformation, where every step towards mental wellness is a triumph of the human spirit.",
             };
+
+
 
             context.Posts.Add(post);
             context.Posts.Add(post2);
@@ -548,12 +567,83 @@ namespace App.Data
             var comment = new PostComment
             {
                 PostId = postId,
-                Comment = $"Wow, these healthcare advancements are truly remarkable! It's incredible to see how technology and science are revolutionizing the medical field. The potential for personalized treatments and improved patient care is so promising. Exciting times ahead for healthcare{postId}",
-                IsActive = true, // Varsayılan olarak true olarak ekledik.
-                                 // Gerekli diğer özellikleri de doldur.
+                Comment = $"Wow, these advancements in opthomology are simply astonishing! The strides made in eye care and vision enhancement are truly impressive. It's inspiring to witness how technology and medical expertise converge to illuminate the world for countless individuals. Kudos to the opthomology department for their dedication to preserving and restoring sight! {postId}",
+                IsActive = true,
+            };
+            var comment2 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"The innovations in cardiology are nothing short of a lifesaver! Witnessing the fusion of science, compassion, and technology in heart care is awe-inspiring. Cardiologists truly hold the rhythm of life in their hands, mending hearts and paving the way for healthier tomorrows. A heartfelt salute to the cardiology department for their life-changing work! {postId}",
+                IsActive = true,
+            };
+            var comment3 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"The world of dental care is beaming brighter than ever! It's fascinating to see how meticulous care and advanced techniques come together for healthier smiles. Dentists and hygienists are the unsung heroes of oral well-being, ensuring that every smile radiates with confidence. A big thank you to the dental care department for keeping our smiles shining! {postId}",
+                IsActive = true,
+            };
+            var comment4 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Child care is the nurturing heart of early development! Witnessing the dedication of caregivers and professionals in shaping young minds is heartwarming. Every child's laughter and curiosity are a testament to the loving care they receive. Kudos to the child care department for sowing the seeds of lifelong growth and happiness! {postId}",
+                IsActive = true,
+            };
+            var comment5 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"The strides made in pulmonology breathe new life into respiratory health! The tireless efforts of pulmonologists in unraveling lung mysteries and restoring breath are truly commendable. Witnessing the impact of their expertise on respiratory wellness is a breath of fresh air. A standing ovation to the pulmonology department for nurturing the breath of life! {postId}",
+                IsActive = true,
+            };
+            var comment6 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Gynecology is a sanctuary of women's health and empowerment! The expertise and compassion of gynecologists shine brightly in their commitment to female well-being. Witnessing their impact on every stage of a woman's life is a celebration of resilience and vitality. A heartfelt salute to the gynecology department for championing women's health journeys! {postId}",
+                IsActive = true,
+            };
+            var comment7 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Allergy and Immunology, the heroes of immune resilience! Witnessing the relief brought to those battling allergies and immunologic challenges is heartening. The immune system's symphony finds harmony under their care, and lives are transformed. A standing ovation to the allergy and immunology department for restoring freedom from the burdens of immune response! {postId}",
+                IsActive = true,
+            };
+            var comment8 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Anesthesiology, the guardian of serenity in surgical journeys! Witnessing the expertise that ensures painless slumber during procedures is truly remarkable. Every surgery unfolds under their vigilant watch, fostering comfort and tranquility. A heartfelt thank you to the anesthesiology department for orchestrating peaceful healing slumber! {postId}",
+                IsActive = true,
+            };
+            var comment9 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Aviation Medical Services, the lifelines of safe flights! The dedication of specialized examiners in ensuring aviation professionals take to the skies in optimal health is commendable. Witnessing their role in maintaining skies safe and journeys smooth is awe-inspiring. A sky-high salute to the aviation medical services department for ensuring safe flights and endless horizons! {postId}",
+                IsActive = true,
+            };
+            var comment10 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"General Surgery, the architects of healing journeys! Witnessing the skill and care that mend and restore is truly inspiring. From intricate surgeries to transformative interventions, every step is a testament to their commitment {postId}",
+            IsActive = true,
+            };
+            var comment11 = new PostComment
+            {
+                PostId = postId,
+                Comment = $"Psychiatry, the guardians of emotional well-being! Witnessing the impact of expert psychiatrists on mental health is truly heartening. Minds find solace and resilience under their care, paving the way for brighter tomorrows. A heartfelt applause to the psychiatry department for illuminating the path to mental wellness and emotional strength! {postId}",
+                IsActive = true,
             };
 
+
+
             comments.Add(comment);
+            comments.Add(comment2);
+            comments.Add(comment3);
+            comments.Add(comment4);
+            comments.Add(comment5);
+            comments.Add(comment6);
+            comments.Add(comment7);
+            comments.Add(comment8);
+            comments.Add(comment9);
+            comments.Add(comment10);
+            comments.Add(comment11);
             return comments;
         }
 
@@ -563,13 +653,103 @@ namespace App.Data
             var postComment = new PostComment
             {
                 PostId = 1, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
-                UserId = 1, // Bu örnekte UserId'leri 1'den 10'a kadar ekledik.
+                UserId = 12, // Bu örnekte UserId'leri 1'den 10'a kadar ekledik.
                 Comment = $"This is such a positive step forward in healthcare! The progress in genetic therapies and AI applications is truly impressive. It gives hope for better treatment options and faster diagnoses in the future. Kudos to all the researchers and healthcare professionals working tirelessly to make these advancements a reality!",
                 IsActive = true, // Varsayılan olarak true olarak ekledik.
                                  // Gerekli diğer özellikleri de doldur.
             };
+            var postComment2 = new PostComment
+            {
+                PostId = 2,
+                UserId = 13,
+                Comment = $"A leap forward in cardiac care! The advancements in genetics and AI applications hold immense promise for heart health. The dedication of researchers and healthcare experts shines brightly in these transformative steps. Here's to a future where hearts beat stronger and healthier, thanks to the cardiology department's unwavering efforts!",
+                IsActive = true,
+            };
+
+            var postComment3 = new PostComment
+            {
+                PostId = 3,
+                UserId = 14,
+                Comment = $"A reason to smile brighter! The progress in dental care is a testament to the dedication of experts who nurture healthier teeth and gums. The fusion of science and compassion in oral well-being is truly commendable. Hats off to the dental care department for making every smile a masterpiece of health and confidence!",
+                IsActive = true,
+            };
+
+            var postComment4 = new PostComment
+            {
+                PostId = 4,
+                UserId = 15,
+                Comment = $"A nurturing journey for young minds! Witnessing the impact of dedicated caregivers and professionals in child care is heartening. Every step towards childhood growth and development is a testament to the department's commitment. Here's to a future where children's laughter and curiosity flourish under the care of the child care department!",
+                IsActive = true,
+            };
+
+            var postComment5 = new PostComment
+            {
+                PostId = 5,
+                UserId = 16,
+                Comment = $"Breathing new life into respiratory health! The advancements in pulmonology paint a picture of healthier lungs and improved well-being. Witnessing lives transformed through enhanced respiratory care is a tribute to the department's unwavering dedication. A heartfelt salute to the pulmonology team for helping us all breathe easier!",
+                IsActive = true,
+            };
+
+            var postComment6 = new PostComment
+            {
+                PostId = 6,
+                UserId = 17,
+                Comment = $"A journey of women's wellness and empowerment! The strides made in gynecology reflect a commitment to female health and vitality. Witnessing lives transformed through expert care is a testament to the department's dedication. Here's to a future where every woman's health journey is nurtured with compassion and expertise!",
+                IsActive = true,
+            };
+
+            var postComment7 = new PostComment
+            {
+                PostId = 7,
+                UserId = 18,
+                Comment = $"Unleashing the power of immunity! Witnessing the impact of allergy and immunology experts on immune resilience is truly inspiring. Lives transformed through relief from allergies and immune challenges are a tribute to the department's expertise. Here's to a future where immune health thrives under the care of the allergy and immunology department!",
+                IsActive = true,
+            };
+            var postComment8 = new PostComment
+            {
+                PostId = 8,
+                UserId = 19,
+                Comment = $"Creating a tapestry of serene surgical journeys! The role of anesthesiology in painless procedures is truly remarkable. Witnessing surgeries unfold under peaceful slumber is a testament to the department's dedication. Here's to the anesthesiology team for orchestrating comfort and tranquility in healing journeys!",
+                IsActive = true,
+            }; 
+            var postComment9 = new PostComment
+            {
+                PostId = 9,
+                UserId = 20,
+                Comment = $"Clear skies, safe flights! Witnessing the impact of aviation medical services on skyward journeys is awe-inspiring. The commitment to ensuring aviation professionals' health is a testament to expertise and dedication. Here's to the aviation medical services department for upholding safety in the skies!",
+                IsActive = true,
+            };
+            var postComment10 = new PostComment
+            {
+                PostId = 10,
+                UserId = 21,
+                Comment = $"Architects of healing journeys! Witnessing the artistry of general surgery in restoring health is truly inspiring. Lives transformed through intricate procedures and skilled interventions reflect the dedication of the department. A heartfelt salute to the general surgery team for paving the way to healthier tomorrows!",
+                IsActive = true,
+            };
+            var postComment11 = new PostComment
+            {
+                PostId = 11,
+                UserId = 22,
+                Comment = $"Nurturing minds, illuminating paths! Witnessing the impact of psychiatry on mental well-being is truly heartening. Lives transformed through expert care and compassionate support are a testament to the department's dedication. Here's to a future where every mind finds solace and resilience under the care of the psychiatry department!",
+                IsActive = true,
+            };
+
+
+
+
+
 
             context.PostComments.Add(postComment);
+            context.PostComments.Add(postComment2);
+            context.PostComments.Add(postComment3);
+            context.PostComments.Add(postComment4);
+            context.PostComments.Add(postComment5);
+            context.PostComments.Add(postComment6);
+            context.PostComments.Add(postComment7);
+            context.PostComments.Add(postComment8);
+            context.PostComments.Add(postComment9);
+            context.PostComments.Add(postComment10);
+            context.PostComments.Add(postComment11);
 
 
             context.SaveChanges();
@@ -623,11 +803,11 @@ namespace App.Data
                 Address = $"Karaköy / İstanbul",
                 Email = "academy@siliconmade.com",
                 Image = "",
-                IsActive = true ,
+                IsActive = true,
                 Phone = "+90 850 272 7454",
                 AlpLinkedin = "https://www.linkedin.com/in/alparslan-kobak-5a98831b5/",
                 UtkuLinkedin = "https://www.youtube.com/shorts/fDjMVKTFjFs",
-                KadirLinkedin = "https://www.linkedin.com/in/kadir-alt%C4%B1nay-919a66264/"                
+                KadirLinkedin = "https://www.linkedin.com/in/kadir-alt%C4%B1nay-919a66264/"
             };
 
             context.Settings.Add(setting);
@@ -747,8 +927,68 @@ namespace App.Data
                 DepartmentId = 1, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
                 PostId = 1, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
             };
+            var departmentPost2 = new DepartmentPost
+            {
+                DepartmentId = 2, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 2, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost3 = new DepartmentPost
+            {
+                DepartmentId = 3, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 3, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost4 = new DepartmentPost
+            {
+                DepartmentId = 4, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 4, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost5 = new DepartmentPost
+            {
+                DepartmentId = 5, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 5, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost6 = new DepartmentPost
+            {
+                DepartmentId = 6, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 6, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost7 = new DepartmentPost
+            {
+                DepartmentId = 7, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 7, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost8 = new DepartmentPost
+            {
+                DepartmentId = 8, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 8, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost9 = new DepartmentPost
+            {
+                DepartmentId = 9, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 9, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost10 = new DepartmentPost
+            {
+                DepartmentId = 10, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 10, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
+            var departmentPost11 = new DepartmentPost
+            {
+                DepartmentId = 11, // Bu örnekte DepartmentId'leri 1'den 10'a kadar ekledik.
+                PostId = 11, // Bu örnekte PostId'leri 1'den 10'a kadar ekledik.
+            };
 
             context.DepartmentPosts.Add(departmentPost);
+            context.DepartmentPosts.Add(departmentPost2);
+            context.DepartmentPosts.Add(departmentPost3);
+            context.DepartmentPosts.Add(departmentPost4);
+            context.DepartmentPosts.Add(departmentPost5);
+            context.DepartmentPosts.Add(departmentPost6);
+            context.DepartmentPosts.Add(departmentPost7);
+            context.DepartmentPosts.Add(departmentPost8);
+            context.DepartmentPosts.Add(departmentPost9);
+            context.DepartmentPosts.Add(departmentPost10);
+            context.DepartmentPosts.Add(departmentPost11);
             context.SaveChanges();
         }
 
@@ -828,8 +1068,8 @@ namespace App.Data
             };
             context.Contacts.Add(contact);
 
-           
-           
+
+
 
             context.SaveChanges();
         }
@@ -838,9 +1078,9 @@ namespace App.Data
         {
             Subscriber subscribber = new()
             {
-        
+
                 Email = "Azrail2023@gmail.com"
-               
+
 
             };
             context.Subscribbers.Add(subscribber);

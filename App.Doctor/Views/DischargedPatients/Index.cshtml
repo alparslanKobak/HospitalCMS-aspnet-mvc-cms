@@ -43,6 +43,7 @@
                             <th>Doctor</th>
                             <th>Created At</th>
                             <th>Last Update</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -58,6 +59,7 @@
                             <th>Doctor</th>
                             <th>Created At</th>
                             <th>Last Update</th>
+                            <th>Action</th>
                         </tr>
                     </tfoot>
 
@@ -82,6 +84,13 @@
                                 <td>
                                    @patient.UpdatedAt
                                 </td>
+                                <td>
+                                    <div class="d-flex">
+                                        <form asp-action="Remove" asp-route-id="@patient.Id" method="post" onsubmit="return confirmDelete(this);">
+                                            <button type="submit" class="btn btn-success" id="deleteButton"><i class="fas fa-check"></i> Add</button>
+                                        </form>
+                                    </div>
+                                </td>
                             </tr>
                         }
                     </tbody>
@@ -92,4 +101,15 @@
     </div>
 </div>
 
+<script>
+    function confirmDelete(formElement) {
+        var deleteButton = formElement.querySelector('button');
 
+        if (deleteButton.innerHTML === 'Sure?') {
+            return true;
+        } else {
+            deleteButton.innerHTML = 'Sure?';
+            return false;
+        }
+    }
+</script>

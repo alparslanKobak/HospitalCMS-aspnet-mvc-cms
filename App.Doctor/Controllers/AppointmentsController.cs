@@ -56,6 +56,10 @@ namespace App.Admin.Controllers
         {
             try
             {
+                int? userId = HttpContext.Session.GetInt32("userId");
+                var doctor = await _httpClient.GetFromJsonAsync<Doctors>(_apiDoctorsRoles + "/" + userId);
+                collection.DoctorId = userId;
+                collection.DepartmentId = doctor?.DepartmentId;
                 var response = await _httpClient.PostAsJsonAsync(_apiAddress, collection);
                 if (response.IsSuccessStatusCode)
                 {
@@ -89,6 +93,10 @@ namespace App.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(int id, Appointment collection)
         {
+            int? userId = HttpContext.Session.GetInt32("userId");
+            var doctor = await _httpClient.GetFromJsonAsync<Doctors>(_apiDoctorsRoles + "/" + userId);
+            collection.DoctorId = userId;
+            collection.DepartmentId = doctor?.DepartmentId;
             var response = await _httpClient.PutAsJsonAsync(_apiAddress + "/" + id, collection);
 
             if (response.IsSuccessStatusCode)
