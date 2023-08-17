@@ -799,10 +799,10 @@ namespace App.Data
 
             var setting = new Setting
             {
-                Name = $"LifeSpringHospital",
+                Name = $"LifeSpring",
                 Address = $"Karaköy / İstanbul",
                 Email = "academy@siliconmade.com",
-                Image = "/Images/lifex.jpg",
+                Image = "/Images/SiteLogo.jpg",
                 IsActive = true,
                 Phone = "+90 850 272 7454",
                 AlpLinkedin = "https://www.linkedin.com/in/alparslan-kobak-5a98831b5/",

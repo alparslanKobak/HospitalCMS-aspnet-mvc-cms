@@ -1,57 +1,35 @@
 ﻿@model Patient
 
-<style>
-    /* Genel renk tanımlamaları */
-    .color-blue {
-        color: #003366; /* Koyu buz mavisi */
-    }
 
-    .color-green {
-        color: #006400; /* Koyu yeşil */
-    }
-
-    .color-red {
-        color: #FF0000; /* Koyu kırmızı */
-    }
-
-    .emergency-phone {
-        background-color: #FF0000; /* Koyu kırmızı */
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    .highlight {
-        background-color: #f2f2f2;
-        padding: 15px;
-        border-radius: 8px;
-    }
-</style>
-
-<div class="container highlight">
+<div class="container mt-5">
     <div class="row">
-        <div class="col-3">
-            <img src="@Model.Image" class="img-fluid rounded-2 shadow-lg border border-1 border-dark" style="max-height:75px;max-width:75px" title="@Model.FullName" alt="" />
-            <h2 class="fst-italic fw-bolder color-blue">@Model.FullName</h2> <br />
-            <h3 class="fst-italic">@Model.Email</h3> <br />
-            <h3 class="fst-italic">@Model.Phone</h3>
-
+        <div class="col-md-4">
+            <div class="text-center mb-4">
+                <img src="@Model.Image" alt="@Model.FullName" class="img-fluid" width="100%" >
+            </div>
+            <h2 class="text-primary">@Model.FullName</h2>
+            <p class="text-muted">@Model.Email</p>
+            <p class="text-muted">@Model.Phone</p>
         </div>
-        <div class="col-6">
-            <div class="row">
-                <div class="col">
-                    <h3 class="fw-bold color-green">Diagnosis</h3>
-                    <p class="fst-italic color-blue">@Model.Diagnosis</p>
+        <div class="col-md-8">
+            <div class="card p-4">
+                <h3 class="text-success">Diagnosis</h3>
+                <p>@Model.Diagnosis</p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-md-12">
+            <div class="card bg-info text-white p-4">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="text-white">@Model.Doctor.FullName</h2>
+                        <p>Phone: @Model.Doctor.Phone</p>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <img src="@Model.Doctor.Image" alt="" class="" height="150">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-3">
-            <img src="@Model.Doctor.Image" class="img-fluid rounded-2 shadow-lg border border-1 border-dark" style="max-height:75px;max-width:75px" title="@Model.Doctor.FullName" alt="" />
-            <h2 class="fst-italic fw-bolder color-green">@Model.Doctor.FullName</h2>
-            <div class="emergency-phone">@Model.Doctor.Phone</div>
-        </div>
-    </div>
 </div>

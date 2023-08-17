@@ -46,20 +46,20 @@ namespace App.Web.Mvc.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult> Create(DepartmentPostViewModel viewModel) // Bu manevra bize 51 yıla mal olacak...
+        public async Task<ActionResult> Create(PostComment viewModel) // Bu manevra bize 51 yıla mal olacak...
         {
             try
             {
-
-
-                PostComment postComment = viewModel.Comment;
+                var postComment = new PostComment
+                {
+                PostId = viewModel.PostId,
+                Email = viewModel.Email,
+                FullName = viewModel.FullName,
+                Comment = viewModel.Comment,
+            };
 
               
-                postComment.PostId = viewModel.Comment.PostId;
-                postComment.Email = viewModel.Comment.Email;
-                postComment.FullName = viewModel.Comment.FullName;
-      
-                postComment.Comment = viewModel.Comment.Comment;
+
 
 
 
@@ -78,7 +78,7 @@ namespace App.Web.Mvc.Controllers
                 if (response.IsSuccessStatusCode)
                 {
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction(nameof(Create));
 
                 }
                 TempData["Message"] = "<div class='alert alert-danger'>Error, Please Try Again! </div>";
@@ -93,7 +93,7 @@ namespace App.Web.Mvc.Controllers
 
 
                 ModelState.AddModelError("", "Your Comment cannot sended. Please Try Again!");
-                return RedirectToAction("Index", "Home");
+                return View();
             }
         }
     }
