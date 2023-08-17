@@ -125,13 +125,12 @@
                                         }
                                     }
 
-
-
                                 </ul>
+                                <div class="row">
+                                    <a class="btn btn-info" asp-controller="PostComments" asp-action="Create" asp-route-id="@item.PostId">Add a Comment</a>
+                                </div>
                             </div>
                         </div>
-
-
 
                     </div>
                 </div>
@@ -241,48 +240,3 @@
     <hr class="mt-2 mb-2" />
 
 }
-
-<section class="section">
-    <div class="container">
-        <div class="col-lg-12">
-            <form class="comment-form my-5" asp-controller="DepartmentPost" method="post" asp-action="Create" id="comment-form">
-
-                <h4 class="mb-4">Write a comment</h4>
-                <div class="row">
-
-                    <div class="col-md-4">
-
-                        <select id="postList" name="postId" class="form-control" asp-for="Comment.PostId">
-                            @foreach (var item in Model.Posts)
-                            {
-
-                                <option value="@item.Post.Id">@item.Post.Title</option>
-                            }
-                        </select>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <input class="form-control" type="text" asp-for="Comment.Email" name="mail" id="mail" placeholder="Email:">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <input class="form-control" type="text" asp-for="Comment.FullName" name="FullName" id="fullName" placeholder="Your Name:">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <label asp-for="Comment.Comment" class="form-label">Your Message</label>
-                    <textarea id="Message" asp-for="Comment.Comment" placeholder="Talk here..." name="Message" class="form-control" rows="5"></textarea>
-                    <span asp-validation-for="Comment.Comment" class="text-danger"></span>
-                </div>
-
-
-                <button class="btn btn-main-2 btn-round-full" type="submit" id="submit_contact" name="submit-contact">
-                    Submit Message
-                </button>
-            </form>
-        </div>
-    </div>
-
-</section>

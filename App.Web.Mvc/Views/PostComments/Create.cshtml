@@ -1,0 +1,38 @@
+﻿@model PostComment
+
+
+<section class="section">
+    <div class="container">
+        <div class="col-lg-12">
+            <form class="comment-form my-5" asp-controller="PostComments"asp-action="Create" id="comment-form">
+
+                <h4 class="mb-4">Write a comment</h4>
+                <div class="row">
+
+                    
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" asp-for="Email" name="mail" id="mail" placeholder="Email:">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" asp-for="FullName" name="FullName" id="fullName" placeholder="Your Name:">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label asp-for="Comment" class="form-label">Your Message</label>
+                    <textarea id="Message"  placeholder="Talk here..." name="Message" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="Comment" class="text-danger"></span>
+                </div>
+
+
+                <button class="btn btn-main-2 btn-round-full" type="submit" >
+                    Submit Message
+                </button>
+            </form>
+        </div>
+    </div>
+
+</section>
