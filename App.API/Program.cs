@@ -47,13 +47,20 @@ app.MapControllers();
 
 using (var scope = app.Services.CreateScope())
 {
+
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     var db = dbContext.Database;
 
+    if (await db.CanConnectAsync())
+    {
+        await db.EnsureDeletedAsync(); // Eğer veritabanı varsa sil
+    }
+
     if (!await db.CanConnectAsync())
     {
-        await db.EnsureCreatedAsync();
+        await db.EnsureCreatedAsync(); // Veritabanını oluştur
+
         DbSeeder.Seed(dbContext);
     }
 }
